@@ -1,80 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Floriografia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floriografia - A Linguagem das Flores</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            margin-bottom: 30px;
+            border-radius: 15px;
+        }
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-<h1>Floriografia</h1>
-<p>
-A floriografia é a linguagem das flores. Cada flor possui um significado
-e pode até mesmo representar sentimentos como amor, alegria e melancolia.
-</p>
-<h2>Origem</h2>
-<p>
-A floriografia surgiu no século XIX, principalmente na Europa.
-Onde as pessoas usavam flores para expressar sentimentos que não podiam
-ser ditos em palavras ou em voz alta.
-</p>
-<br>
-<h2>Características</h2>
-<li>Cada flor tem um significado</li>
-<li>As cores mudam o significado</li>
-<li>É uma forma de comunicação simbólica</li>
-<h2>As Flores</h2>
-<h5>Começando pelas mais famosas</h5>
-<h3>Rosa Vermelha</h3>
-<p>
-A rosa representa o amor e o romantismo.
-</p>
-<p>
-Cultivo: precisa de sol, água regular e solo bem drenado.
-</p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Rose_pink_1.jpg" alt="Rosa" width="250">
-<br>
-<h3>Girassol</h3>
-<p>
-O girassol simboliza alegria e determinaçao.
-</p>
-<p>
-Cultivo: necessita de bastante sol e regas frequentes.
-</p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg" alt="Girassol" width="250">
-<br>
-<h3>Lírio</h3>
-<p>
-O lírio está ligado à paz e à pureza.
-</p>
-<section>
-        <h2>Sobre as Cores</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Cor da Flor</th>
-                    <th>Significado</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Branco</td>
-                    <td>Inocência, paz e reverência.</td>
-                </tr>
-                <tr>
-                    <td>Amarelo</td>
-                    <td>Amizade, felicidade e recomeços.</td>
-                </tr>
-                <tr>
-                    <td>Cor-de-rosa</td>
-                    <td>Gratidão, carinho e admiração.</td>
-                </tr>
-                <tr>
-                    <td>Roxo</td>
-                    <td>Encantamento, dignidade e sucesso.</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">🌸 Floriografia</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <header class="hero-section text-center shadow-sm">
+            <h1 class="display-4">Floriografia</h1>
+            <p class="lead text-muted">A linguagem das flores: onde cada pétala conta uma história.</p>
+        </header>
+
+        <div class="row">
+            <div class="col-md-6">
+                <section class="mb-5">
+                    <h2 class="h4 border-bottom pb-2">Origem</h2>
+                    <p>A floriografia surgiu no século XIX, principalmente na Europa, onde as pessoas usavam flores para expressar sentimentos que não podiam ser ditos em voz alta.</p>
+                </section>
+            </div>
+
+            <div class="col-md-6">
+                <section class="mb-5">
+                    <h2 class="h4 border-bottom pb-2">Características</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cada flor tem um significado</li>
+                        <li class="list-group-item">As cores mudam o significado</li>
+                        <li class="list-group-item">Forma de comunicação simbólica</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <section class="mb-5">
+            <h2 class="h4 mb-4 text-center">As Flores Mais Famosas</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Rose_pink_1.jpg" class="card-img-top" alt="Rosa">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Rosa Vermelha</h5>
+                            <p class="card-text">Representa o amor e o romantismo.</p>
+                            <p class="small text-muted"><strong>Cultivo:</strong> Sol e solo bem drenado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg" class="card-img-top" alt="Girassol">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Girassol</h5>
+                            <p class="card-text">Simboliza alegria e determinação.</p>
+                            <p class="small text-muted"><strong>Cultivo:</strong> Bastante sol e regas frequentes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Lilium_candidum_1.jpg" class="card-img-top" alt="Lírio">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Lírio</h5>
+                            <p class="card-text">Está ligado à paz e à pureza.</p>
+                            <p class="small text-muted"><strong>Cultivo:</strong> Luz indireta e solo leve.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="h4 mb-3">Significado das Cores</h2>
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Cor da Flor</th>
+                            <th>Significado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Branco</td><td>Inocência, paz e reverência.</td></tr>
+                        <tr><td>Amarelo</td><td>Amizade, felicidade e recomeços.</td></tr>
+                        <tr><td>Cor-de-rosa</td><td>Gratidão, carinho e admiração.</td></tr>
+                        <tr><td>Roxo</td><td>Encantamento, dignidade e sucesso.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div> <footer class="bg-light text-center py-4 mt-5">
+        <p class="text-muted mb-0">&copy; 2026 Projeto Floriografia - Estudante de HTML</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
